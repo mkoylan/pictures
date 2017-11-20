@@ -1,0 +1,68 @@
+PImage a;
+PImage b;
+PImage c;
+PImage d;
+PImage e;
+PImage f;
+PImage g;
+PImage h;
+PImage i;
+PImage k;
+PImage l;
+PImage m;
+PImage n;
+PImage o;
+PImage p;
+PImage q;
+PImage r;
+PImage s;
+PImage t;
+PImage u;
+ 
+void setup(){
+  size(1000, 800);
+  a = loadImage("01.jpg");
+  b = loadImage("02.jpg");
+  c = loadImage("03.jpg");
+  d = loadImage("04.jpg");
+  e = loadImage("05.jpg");
+  f = loadImage("06.jpg");
+  g = loadImage("07.jpg");
+  h = loadImage("08.jpg");
+  i = loadImage("09.jpg");
+  k = loadImage("10.jpg");
+  l = loadImage("11.jpg");
+  m = loadImage("12.jpg");
+  n = loadImage("13.jpg");
+  o = loadImage("14.jpg");
+  p = loadImage("15.jpg");
+  q = loadImage("16.jpg");
+  r = loadImage("17.jpg");
+  s = loadImage("18.jpg");
+  t = loadImage("19.jpg");
+  u = loadImage("20.jpg");
+ 
+}
+ 
+void draw(){
+  image(a, 0, 0, 200, 200);
+  image(b, 200, 0, 200,200);
+  image(c, 400, 0, 200, 200);
+  image(d, 600, 0, 200, 200);
+  image(e, 800, 0, 200, 200);
+  image(f, 0, 200, 200, 200);
+  image(g, 200,200, 200, 200);
+  image(h, 400, 200, 200, 200);
+  image(i, 600, 200, 200, 200);
+  image(k, 800, 200, 200, 200);
+  image(l, 0, 400, 200, 200);
+  image(m, 200, 400, 200, 200);
+  image(n, 400, 400, 200, 200);
+  image(o, 600, 400, 200, 200);
+  image(p, 800, 400, 200, 200);
+  image(q, 0, 600, 200, 200);
+  image(r, 200, 600, 200, 200);
+  image(s, 400, 600, 200, 200);
+  image(t, 600, 600, 200, 200);
+  image(u, 800, 600, 200, 200);
+}
